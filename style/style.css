@@ -12,7 +12,7 @@ header {
 }
 
 main * {
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 main section:nth-child(odd) {
@@ -29,6 +29,9 @@ main section:nth-child(odd) {
     width: 3.5rem;
 }
 
+button {
+    border: 2px solid white;
+}
 
 @media screen and (min-width:768px) {
     .title-md-big {
