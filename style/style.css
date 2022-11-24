@@ -3,10 +3,6 @@ header {
     background-color: #2c3e50;
 }
 
-header * {
-    /* border: 1px dashed white; */
-}
-
 .menu-border{
     border: 2px solid;
 }
@@ -20,6 +16,16 @@ main * {
 }
 
 .jumbotron {
-    height: 480px;
     background-color: #1abc9c;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    background-color: white;
+    height: 5px;
+    width: 4rem;
 }
