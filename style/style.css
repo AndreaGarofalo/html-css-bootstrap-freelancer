@@ -12,14 +12,14 @@ header {
 }
 
 main * {
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .jumbotron {
     background-color: #1abc9c;
 }
 
-img {
+.jumbotron img {
     width: 200px;
     height: 200px;
 }
