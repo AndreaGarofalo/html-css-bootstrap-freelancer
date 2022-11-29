@@ -31,7 +31,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+
               </nav>
     </header>
     <main>
@@ -118,12 +118,30 @@
                 </div>
             </div>
         </section>
-        <section class="contact text-center text-dark">
-            <h3 class="text-uppercase pt-5">contact me</h3>
-            <div class="star py-2 d-flex justify-content-center align-items-center">
-                <div class="line rounded-pill bg-dark"></div>
-                <i class="bi bi-star-fill fs-2 px-3"></i>
-                <div class="line rounded-pill bg-dark"></div>
+        <section class="contact text-center text-dark pb-5">
+            <div class="container">
+                <h3 class="text-uppercase pt-5">contact me</h3>
+                <div class="star py-2 d-flex justify-content-center align-items-center">
+                    <div class="line rounded-pill bg-dark"></div>
+                    <i class="bi bi-star-fill fs-2 px-3"></i>
+                    <div class="line rounded-pill bg-dark"></div>
+                </div>
+                <form class="text-start">
+                  <div class="mb-3">
+                    <input type="text" value="Name" class="form-control border-0  border-bottom" id="Name" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" value="Email" class="form-control border-0  border-bottom" id="Email" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" value="Phone" class="form-control border-0 border-bottom" id="Phone">
+                  </div>
+                  <div class="mb-3">
+                    <label for="Message" class="form-label ps-2">Message</label>
+                    <textarea class="form-control border-0 border-bottom" id="Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-green text-light">Send</button>
+                </form>
             </div>
         </section>
     </main>
